@@ -67,10 +67,16 @@ remotes::install_github("dfalbel/ptstem")
 
 #### Segunda-feira
 
-<!-- - [01-download-dados.R](https://github.com/beatrizmilz/2024-11-cebrap-lab-text-as-data/blob/main/scripts-pos-aula/01-download-dados.R) - exemplo simplificado do download dos dados. -->
-<!-- - [01-download-dados-extra.R](https://github.com/beatrizmilz/2024-11-cebrap-lab-text-as-data/blob/main/scripts-pos-aula/01-download-dados-extra.R) - arquivo mais extenso com o exemplo do download dos dados. -->
-<!-- - [02-pre-processamento.R](https://github.com/beatrizmilz/2024-11-cebrap-lab-text-as-data/blob/main/scripts-pos-aula/02-pre-processamento.R) - leitura, limpeza, conhecendo os dados,  tokenização, removendo stop words, removendo números, stemming, salvando a base pré-processada para a análise na aula seguinte. -->
-<!-- - [stop-words.R](https://github.com/beatrizmilz/2024-11-cebrap-lab-text-as-data/blob/main/scripts-pos-aula/stop-words.R) - script usado para gerar a lista de stop words usada no exercício. -->
+- [01-download-dados.R](https://github.com/beatrizmilz/2024-11-cebrap-lab-text-as-data/blob/main/scripts-pos-aula/01-download-dados.R) -
+  download dos dados.
+
+- [02-pre-processamento.R](https://github.com/beatrizmilz/2024-11-cebrap-lab-text-as-data/blob/main/scripts-pos-aula/02-pre-processamento.R) -
+  leitura, limpeza, conhecendo os dados, tokenização, removendo stop
+  words, removendo números, stemming, salvando a base pré-processada
+  para a análise na aula seguinte.
+
+- [stop-words.R](https://github.com/beatrizmilz/2024-11-cebrap-lab-text-as-data/blob/main/scripts-pos-aula/stop-words.R) -
+  script usado para gerar a lista de stop words usada no exercício.
 
 #### Quarta-feira
 
