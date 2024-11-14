@@ -101,6 +101,11 @@ tokens_arrumados <- tokens_sem_stopwords |>
     .default = palavra
   ))
 
+
+# https://docs.ropensci.org/spelling/index.html
+# Pensar em formas melhores de fazer isso!
+
+
 # Stemming ------------------------
 
 # Stemming é o processo de reduzir palavras flexionadas 
@@ -120,7 +125,7 @@ length(unique(tokens_arrumados$palavra))
 # pode demorar
 stems <- tokens_arrumados |> 
   distinct(palavra) |> 
-  mutate(stem = ptstem::ptstem(palavra))
+  mutate(stem = ptstem::ptstem(palavra)) # isso é meio demorado!
 
 tokens_stem <- tokens_arrumados |>
   left_join(stems, by = "palavra") # proc V do excel
@@ -136,6 +141,8 @@ tokens_stem |>
 
 
 fs::dir_create("dados")
+
+
 # Agora sim!
 tokens_stem |> 
   write_rds("dados/tokens_preparados.rds")

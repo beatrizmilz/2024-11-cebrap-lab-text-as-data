@@ -35,3 +35,8 @@ extra_stop_words <- c(
 )
 
 stop_words_completo <- unique(c(snowball, stopwords_tm, extra_stop_words))
+
+
+stop_words_bigram <- c("muitas vezes", "ponto positivo",
+                       "pontos positivos",
+                       "faz sentido", "único ponto", "nenhum ponto")
