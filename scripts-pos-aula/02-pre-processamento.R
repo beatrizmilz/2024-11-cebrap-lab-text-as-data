@@ -45,7 +45,7 @@ resultados_enquete |>
 # gráfico simples
 resultados_enquete |> 
   count(data, posicionamento) |> 
-  arrange(desc(n))
+  arrange(desc(n)) |> 
   ggplot() +
   aes(x = data, y = n) +
   geom_line(aes(color = posicionamento)) 

@@ -65,7 +65,7 @@ baixar_enquete("2373385")
 
 # Baixando dados de várias enquetes:
 
-palavras_tema <- c("inteligência artificial")
+palavras_tema <- c("aborto")
 
 projetos_tema <- projetos_de_lei |>
   filter(str_detect(str_to_lower(keywords), palavras_tema)) 
